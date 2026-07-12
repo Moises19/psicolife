@@ -1,0 +1,206 @@
+/* ==========================================================
+   HERO
+========================================================== */
+
+.hero {
+
+     display: flex;
+
+    align-items: center;
+
+    min-height: calc(100vh - 80px);
+
+    padding: calc(var(--space-xl) + 1rem) 0 var(--space-xl);
+
+}
+
+/* ==========================================================
+   HERO WRAPPER
+========================================================== */
+
+.hero-wrapper {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: var(--space-xl);
+
+}
+
+/* ==========================================================
+   HERO CONTENT
+========================================================== */
+
+.hero-content {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+/* ==========================================================
+   HERO IMAGE
+========================================================== */
+
+.hero-image {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.hero-image img {
+
+    width: 100%;
+
+    max-width: 420px;
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-lg);
+
+}
+
+/* ==========================================================
+   HERO BADGE
+========================================================== */
+
+.hero-badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: .5rem;
+
+    width: fit-content;
+
+    margin-bottom: var(--space-sm);
+
+    padding: .7rem 1.3rem;
+
+    background-color: var(--color-primary-light);
+
+    color: var(--color-primary);
+
+    border-radius: var(--radius-lg);
+
+    font-size: var(--fs-xs);
+
+    font-weight: 600;
+
+}
+
+/* ==========================================================
+   HERO TITLE
+========================================================== */
+
+.hero-content h1 {
+
+    margin-bottom: var(--space-md);
+
+    font-family: var(--font-heading);
+
+    font-size: var(--fs-xxl);
+
+    line-height: 1.1;
+
+    color: var(--color-text);
+
+}
+
+/* ==========================================================
+   HERO DESCRIPTION
+========================================================== */
+
+.hero-content p {
+
+    margin-bottom: var(--space-lg);
+
+    max-width: 600px;
+
+    font-size: var(--fs-md);
+
+    line-height: 1.8;
+
+    color: var(--color-text-light);
+
+}
+
+/* ==========================================================
+   HERO BUTTON
+========================================================== */
+
+.hero-content .btn-primary {
+
+    align-self: flex-start;
+
+}
+
+/* ==========================================================
+   PHOTO CARD
+========================================================== */
+
+.photo-card {
+
+    width: 420px;
+
+    height: 520px;
+
+    background-color: var(--color-white);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-lg);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+}
+
+.photo-placeholder {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: var(--space-sm);
+
+    color: var(--color-text-light);
+
+}
+
+.photo-placeholder span {
+
+    font-size: 4rem;
+
+}
+
+.photo-placeholder p {
+
+    text-align: center;
+
+    margin: 0;
+
+}
+

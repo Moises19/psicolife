@@ -101,13 +101,15 @@ ul{
 
     display: inline-block;
 
-    padding: .9rem 1.8rem;
+    padding: 1rem 2rem;
 
     background-color: var(--color-primary);
 
     color: var(--color-white);
 
     border-radius: var(--radius-md);
+
+    font-weight: 600;
 
     transition: var(--transition-normal);
 

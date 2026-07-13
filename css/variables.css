@@ -9,21 +9,27 @@
        COLORES
        ====================================================== */
 
-    --color-primary: #5E8B7E;
+    --color-primary: #4A9FE6;
 
-    --color-primary-light: #A8D5BA;
+    --color-primary-hover: #4A9BD4;
+
+    --color-primary-light: #EAF6FF;
 
     --color-secondary: #3D5A80;
 
-    --color-background: #FAFAF8;
+    --color-background: #F7FBFE;
 
-    --color-text: #2F2F2F;
+    --color-surface: #FFFFFF;
+
+    --color-text: #2D3748;
+
+    --color-text-light: #5F6C7B;
 
     --color-white: #FFFFFF;
 
-    --color-border: #E5E7EB;
+    --color-border: #D9EAF7;
 
-    --color-text-light: #6B7280;
+    
 
 
     /* ======================================================
@@ -87,6 +93,8 @@
     --shadow-md: 0 8px 20px rgba(0,0,0,.12);
 
     --shadow-lg: 0 16px 40px rgba(0,0,0,.16);
+
+    --shadow-xl: 0 24px 60px rgba(0,0,0,.18);
 
     /* ======================================================
    TRANSICIONES

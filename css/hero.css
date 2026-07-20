@@ -4,7 +4,7 @@
 
 .hero {
 
-     display: flex;
+    display: flex;
 
     align-items: center;
 
@@ -156,13 +156,13 @@
 
 .photo-card {
 
-    width: 420px;
+    width: 400px;
 
-    height: 520px;
+    height: 500px;
 
     background-color: var(--color-white);
 
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-2xl);
 
     box-shadow: var(--shadow-xl);
 
@@ -176,31 +176,42 @@
 
 }
 
-.photo-placeholder {
+.hero-logo-card {
 
     display: flex;
 
-    flex-direction: column;
+    justify-content: center;
 
     align-items: center;
 
-    gap: var(--space-sm);
+    width: 100%;
 
-    color: var(--color-text-light);
+    height: 100%;
 
-}
+    padding: var(--space-lg);
 
-.photo-placeholder span {
-
-    font-size: 4rem;
+    transform: translateY(-10px);
 
 }
 
-.photo-placeholder p {
+.hero-logo {
 
-    text-align: center;
+    width: 78%;
 
-    margin: 0;
+    max-width: 260px;
+
+    height: auto;
+
+    object-fit: contain;
+
+    transition: transform .3s ease;
+
+    display:block;
 
 }
 
+.hero-logo:hover {
+
+    transform: scale(1.03);
+
+}

@@ -1,0 +1,67 @@
+/* ==========================================================
+   AUDIENCE
+========================================================== */
+
+.audience{
+
+    padding: var(--space-2xl) 0;
+
+}
+
+.audience h2,
+.audience .section-description{
+
+    text-align:center;
+
+}
+
+.audience-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:2rem;
+
+    margin-top:var(--space-xl);
+
+}
+
+.audience-card{
+
+    background:var(--color-surface);
+
+    border-radius:var(--radius-lg);
+
+    padding:2rem;
+
+    text-align:center;
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.audience-icon{
+
+    width: 48px;
+
+    height: 48px;
+
+    margin: 0 auto 1.5rem;
+
+    display:block;
+
+    font-size:3rem;
+
+    margin-bottom:1rem;
+
+}
+
+.audience-card h3{
+
+    margin:0;
+
+    font-size:var(--fs-md);
+
+}
+

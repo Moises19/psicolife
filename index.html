@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Psicolife | Braulio Martínez</title>
+    <title>Psicolife</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/audience.css">
+    <link rel="stylesheet" href="css/why.css">
+    <link rel="stylesheet" href="css/cta.css">
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
@@ -22,10 +28,26 @@
     <div class="container header-container">
 
         <a href="#" class="logo">
-            Psico<span>life</span>
+            <img src="assets/logos/psicolife-isotipo.png" alt="Psicolife">
+            <span>Psico<span class="logo-accent">life</span></span>
         </a>
 
-        <nav class="nav">
+        <button
+                class="menu-toggle"
+                aria-label="Abrir menú de navegación"
+                aria-expanded="false"
+            >
+
+                <img
+                    src="assets/icons/lucide/menu.svg"
+                    alt=""
+                    aria-hidden="true"
+                    class="menu-icon"
+                >
+
+        </button>
+
+        <nav class="nav" id="main-nav">
 
             <ul class="nav-list">
 
@@ -39,9 +61,17 @@
 
             </ul>
 
+             <a
+                href="https://calendly.com/ofi-soypsicologo"
+                class="btn btn-primary mobile-cta"
+             >
+                Agendar cita
+            </a>
+
         </nav>
 
-        <a href="#" class="btn-primary">
+
+        <a href="https://calendly.com/ofi-soypsicologo" class="btn btn-primary nav-cta">
             Agendar
         </a>
 
@@ -50,6 +80,7 @@
 </header>
 
 <main>
+
 <section class="hero">
 
     <div class="container">
@@ -70,24 +101,26 @@
                     Acompaño a adolescentes, adultos y parejas en su proceso de crecimiento personal mediante un enfoque cercano, profesional y basado en herramientas que promueven el bienestar.
                 </p>
 
-                <a class="btn-primary" href="#">
-                    📅 Agenda tu primera sesión
+                <a href="https://calendly.com/ofi-soypsicologo" class="btn btn-primary">
+                    <img
+                        src="assets/icons/lucide/calendar.svg"
+                        alt=""
+                        class="btn-icon"
+                        aria-hidden="true"
+                    >
+                    <span>Agenda tu primera sesión</span>
                 </a>
 
             </div>
 
             <div class="hero-image">
 
-                <div class="photo-card">
-
-                    <div class="photo-placeholder">
-
-                        <span>📷</span>
-
-                        Logo de<br>Psicolife
-
-                    </div>
-
+                <div class="hero-logo-card">
+                <img
+                    src="assets/logos/psicolife-logo.png"
+                    alt="Logo de Psicolife"
+                    class="hero-logo"
+                >
                 </div>
 
             </div>
@@ -102,24 +135,15 @@
 
     <div class="container about-container">
 
-        <div class="about-image">
-
             <div class="about-photo-card">
 
-                <div class="photo-placeholder">
-
-                    <span>👨‍⚕️</span>
-
-                    <p>
-                        Imagen profesional<br>
-                        Próximamente
-                    </p>
-
-                </div>
-
+                    <img
+                        src="assets/images/about/consulting-room.png"
+                        alt="Consultorio de psicología"
+                        class="about-photo"
+                    >
+                
             </div>
-
-        </div>
 
         <div class="about-content">
 
@@ -136,14 +160,42 @@
             </p>
 
             <ul class="about-list">
-
-                <li>✔ Atención personalizada</li>
-
-                <li>✔ Ambiente de confianza</li>
-
-                <li>✔ Confidencialidad</li>
-
-                <li>✔ Acompañamiento profesional</li>
+                <li>
+                    <img
+                    src="assets/icons/lucide/check.svg"
+                    alt=""
+                    class="list-icon"
+                    aria-hidden="true"
+                    >
+                    <span>Atención personalizada</span>
+                </li>
+                <li>
+                    <img
+                    src="assets/icons/lucide/check.svg"
+                    alt=""
+                    class="list-icon"
+                    aria-hidden="true"
+                    >
+                    <span>Ambiente de confianza</span>
+                </li>
+                <li>
+                    <img
+                    src="assets/icons/lucide/check.svg"
+                    alt=""
+                    class="list-icon"
+                    aria-hidden="true"
+                    >
+                    <span>Confidencialidad</span>
+                </li>
+                <li>
+                    <img
+                    src="assets/icons/lucide/check.svg"
+                    alt=""
+                    class="list-icon"
+                    aria-hidden="true"
+                    >
+                    <span>Acompañamiento profesional</span>
+                </li>
 
             </ul>
 
@@ -153,9 +205,492 @@
 
 </section>
 
+<section class="services" id="servicios">
+
+    <div class="container">
+
+        <span class="section-tag">
+            Servicios
+        </span>
+
+        <h2>
+            ¿Cómo podemos ayudarte?
+        </h2>
+
+        <p class="section-description">
+            Cada proceso es único. En Psicolife encontrarás acompañamiento profesional para afrontar los desafíos emocionales de tu vida.
+        </p>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <img
+                    src="assets/icons/lucide/heart.svg"
+                    alt=""
+                    class="service-icon"
+                    aria-hidden="true"
+                >
+
+                <h3>Depresión</h3>
+
+                <p>
+                    Recibe acompañamiento profesional para recuperar tu bienestar emocional.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <img
+                    src="assets/icons/lucide/brain.svg"
+                    alt=""
+                    class="service-icon"
+                    aria-hidden="true"
+                >
+
+                <h3>Ansiedad</h3>
+
+                <p>
+                    Aprende herramientas para recuperar la calma y afrontar las preocupaciones del día a día.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <img
+                    src="assets/icons/lucide/leaf.svg"
+                    alt=""
+                    class="service-icon"
+                    aria-hidden="true"
+                >
+
+                <h3>Manejo del estrés</h3>
+
+                <p>
+                    Desarrolla estrategias para gestionar la presión y encontrar un mayor equilibrio.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="audience" id="a-quien-atendemos">
+
+    <div class="container">
+
+        <span class="section-tag">
+            Atención para
+        </span>
+
+        <h2>
+            ¿A quién atendemos?
+        </h2>
+
+        <p class="section-description">
+            En Psicolife brindamos acompañamiento psicológico adaptado a las necesidades de cada etapa de la vida.
+        </p>
+
+        <div class="audience-grid">
+
+            <article class="audience-card">
+
+                <img
+                src="assets/icons/lucide/smile.svg"
+                alt=""
+                class="audience-icon"
+                aria-hidden="true"
+                >
+
+                <h3>Niños</h3>
+
+            </article>
+
+            <article class="audience-card">
+
+                <img
+                src="assets/icons/lucide/book-open.svg"
+                alt=""
+                class="audience-icon"
+                aria-hidden="true"
+                >
+
+                <h3>Adolescentes</h3>
+
+            </article>
+
+            <article class="audience-card">
+
+                <img
+                src="assets/icons/lucide/user.svg"
+                alt=""
+                class="audience-icon"
+                aria-hidden="true"
+                >
+
+                <h3>Adultos</h3>
+
+            </article>
+
+            <article class="audience-card">
+
+                <img
+                src="assets/icons/lucide/users.svg"
+                alt=""
+                class="audience-icon"
+                aria-hidden="true"
+                >
+
+                <h3>Parejas</h3>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="why-us" id="porque-psicolife">
+
+    <div class="container">
+
+        <span class="section-tag">
+            ¿Por qué Psicolife?
+        </span>
+
+        <h2>
+            Un acompañamiento profesional centrado en tu bienestar.
+        </h2>
+
+        <p class="section-description">
+            Nuestro compromiso es ofrecer un espacio seguro, cercano y profesional donde puedas sentirte escuchado y acompañado en cada paso de tu proceso.
+        </p>
+
+        <div class="why-grid">
+
+            <article class="why-card">
+
+                <img
+                src="assets/icons/lucide/heart-handshake.svg"
+                alt=""
+                class="why-icon"
+                aria-hidden="true"
+                >
+
+                <h3>Atención personalizada</h3>
+
+                <p>
+                    Cada proceso terapéutico se adapta a tus necesidades y objetivos.
+                </p>
+
+            </article>
+
+            <article class="why-card">
+
+                <img
+                src="assets/icons/lucide/laptop.svg"
+                alt=""
+                class="why-icon"
+                aria-hidden="true"
+                >
+
+                <h3>Modalidad flexible</h3>
+
+                <p>
+                    Elige entre consultas presenciales o virtuales según tu comodidad.
+                </p>
+
+            </article>
+
+            <article class="why-card">
+
+                <img
+                src="assets/icons/lucide/shield.svg"
+                alt=""
+                class="why-icon"
+                aria-hidden="true"
+                >
+
+                <h3>Enfoque profesional</h3>
+
+                <p>
+                    Terapia basada en enfoques cognitivo-conductual y humanista.
+                </p>
+
+            </article>
+
+            <article class="why-card">
+
+                <img
+                src="assets/icons/lucide/leaf.svg"
+                alt=""
+                class="why-icon"
+                aria-hidden="true"
+                >
+
+                <h3>Bienestar integral</h3>
+
+                <p>
+                    Trabajamos contigo para fortalecer tu bienestar emocional y crecimiento personal.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <span class="section-tag">
+                Da el primer paso
+            </span>
+
+            <h2>
+                Tu bienestar puede comenzar hoy.
+            </h2>
+
+            <p>
+                Agenda tu primera sesión y comienza un proceso de acompañamiento profesional en un espacio seguro, cercano y de confianza.
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="https://calendly.com/ofi-soypsicologo" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <img src="assets/icons/lucide/calendar.svg"
+                    class="btn-icon"
+                    alt=""
+                    aria-hidden="true">
+                    <span>Agendar mi sesión</span>
+                </a>
+
+                <a href="https://wa.me/50760154033?text=Hola,%20me%20gustaría%20agendar%20una%20sesión." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <img src="assets/icons/lucide/message-circle.svg"
+                    class="btn-icon"
+                    alt=""
+                    aria-hidden="true">
+                    <span>Escribir por WhatsApp</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="faq" id="faq">
+
+    <div class="container">
+
+        <span class="section-tag">
+            Preguntas frecuentes
+        </span>
+
+        <h2>
+            Resolvemos tus dudas
+        </h2>
+
+        <p class="section-description">
+            Estas son algunas de las preguntas más comunes antes de iniciar un proceso terapéutico.
+        </p>
+
+        <div class="faq-container">
+
+            <details class="faq-item">
+                <summary>
+                    <span> ¿La primera consulta es de evaluación?</span> 
+                    <img
+                    src="assets/icons/lucide/chevron-down.svg"
+                    alt=""
+                    aria-hidden="true"
+                    class="faq-icon">
+                </summary>
+                <p>
+                    Sí. La primera sesión permite conocer tu situación, comprender tus necesidades y definir el mejor enfoque para tu proceso terapéutico.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span> ¿Las sesiones pueden ser virtuales? </span> 
+                    <img
+                    src="assets/icons/lucide/chevron-down.svg"
+                    alt=""
+                    aria-hidden="true"
+                    class="faq-icon">
+                </summary>
+                <p>
+                    Sí. Psicolife ofrece atención tanto presencial como virtual para adaptarse a tus necesidades.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span> ¿A quién está dirigida la terapia? </span> 
+                    <img
+                    src="assets/icons/lucide/chevron-down.svg"
+                    alt=""
+                    aria-hidden="true"
+                    class="faq-icon">
+                </summary>
+                <p>
+                    Se brinda atención a niños, adolescentes, adultos y parejas, siempre con un enfoque personalizado.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span> ¿Cuánto dura una sesión? </span> 
+                    <img
+                    src="assets/icons/lucide/chevron-down.svg"
+                    alt=""
+                    aria-hidden="true"
+                    class="faq-icon">
+                </summary>
+                <p>
+                    Generalmente las sesiones tienen una duración aproximada de 45 a 60 minutos.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>
+                    <span> ¿Cómo puedo agendar una cita? </span> 
+                    <img
+                    src="assets/icons/lucide/chevron-down.svg"
+                    alt=""
+                    aria-hidden="true"
+                    class="faq-icon">
+                </summary>
+                <p>
+                    Puedes hacerlo directamente desde esta página mediante Calendly o escribiendo por WhatsApp.
+                </p>
+            </details>
+
+        </div>
+
+    </div>
+
+</section>
+
 </main>
 
+<footer class="footer">
 
+    <div class="container footer-container">
+
+        <div class="footer-logo">
+
+            <img
+                src="assets/logos/psicolife-isotipo.png"
+                alt="Psicolife"
+                class="footer-logo-image"
+            >
+
+            <p class="footer-description">
+                Acompañamiento psicológico profesional para ayudarte a construir
+                una vida con mayor bienestar emocional y equilibrio.
+            </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <a href="tel:+50760154033" class="footer-item">
+
+                <img
+                    src="assets/icons/lucide/phone.svg"
+                    class="footer-icon"
+                    alt=""
+                    aria-hidden="true"
+                >
+
+                <span>+507 6015-4033</span>
+
+            </a>
+
+            <a
+                href="mailto:ofi.soypsicologo@gmail.com"
+                class="footer-item"
+            >
+
+                <img
+                    src="assets/icons/lucide/mail.svg"
+                    class="footer-icon"
+                    alt=""
+                    aria-hidden="true"
+                >
+
+                <span>ofi.soypsicologo@gmail.com</span>
+
+            </a>
+
+            <a
+                href="https://maps.app.goo.gl/ydDjxHnNTLgDa5g3A"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-item"
+            >
+
+                <img
+                    src="assets/icons/lucide/map-pin.svg"
+                    class="footer-icon"
+                    alt=""
+                    aria-hidden="true"
+                >
+
+                <span>Dirección del consultorio</span>
+
+            </a>
+
+            <a
+                href="https://instagram.com/ofi.soypsicologo"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-item"
+            >
+
+                <img
+                    src="assets/icons/brands/instagram.svg"
+                    class="footer-icon"
+                    alt=""
+                    aria-hidden="true"
+                >
+
+                <span>@ofi.soypsicologo</span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+     <div class="footer-bottom">
+        <div class="container">
+            <p>
+                © 2026 Psicolife. Todos los derechos reservados.
+            </p>
+
+            <p>
+                Desarrollado por <strong>Lumine Studio</strong>
+            </p>
+        </div>    
+    </div>
+
+</footer>
 
 </body>
 

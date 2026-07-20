@@ -40,29 +40,43 @@
    LOGO
 ========================================================== */
 
-.logo {
+.logo{
+    display:flex;
+    align-items:center;
+    gap:.75rem;
 
-    font-family: var(--font-heading);
+    text-decoration:none;
+}
 
-    font-size: var(--fs-lg);
-
-    font-weight: 700;
-
-    color: var(--color-text);
-
+.logo img{
+    width:44px;
+    height:44px;
+    object-fit:contain;
 }
 
 .logo span{
+    font-size:1.8rem;
+    font-weight:700;
 
-    color: var(--color-primary);
+    color:var(--color-text);
+}
 
-    font-weight: 700;
-
+.logo-accent{
+    color:var(--color-primary);
 }
 
 /* ==========================================================
    NAVIGATION
 ========================================================== */
+
+.nav {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
 
 .nav-list{
 
@@ -90,3 +104,28 @@
 
 }
 
+/* ==========================================================
+   MENU TOGGLE
+========================================================== */
+
+.menu-toggle{
+
+    display:none;
+
+    background:none;
+
+    border:none;
+
+    cursor:pointer;
+
+    padding:.5rem;
+
+}
+
+.menu-icon{
+
+    width:28px;
+
+    height:28px;
+
+}

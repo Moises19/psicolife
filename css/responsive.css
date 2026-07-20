@@ -249,6 +249,115 @@
 
     }
 
+    /* ==========================================================
+    ABOUT
+    ========================================================== */
+
+    .about-container{
+
+        grid-template-columns:1fr;
+
+        gap:2rem;
+
+        text-align:center;
+
+    }
+
+    .about-content{
+
+        order:1;
+
+    }
+
+    .about-photo-card{
+
+        order:2;
+
+    }
+
+    /* ==========================================================
+    SERVICES
+    ========================================================== */
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+
+        gap:1.5rem;
+
+    }
+
+    /* ==========================================================
+    AUDIENCE
+    ========================================================== */
+
+    .audience-grid{
+
+        grid-template-columns:1fr;
+
+        gap:1.5rem;
+
+    }
+
+    /* ==========================================================
+    WHY
+    ========================================================== */
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+        gap:1.5rem;
+
+    }
+
+    /* ==========================================================
+    FOOTER
+    ========================================================== */
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+
+        gap:2rem;
+
+        text-align:center;
+
+        justify-items:center;
+
+    }
+
+    .footer-description{
+
+    text-align:center;
+
+    margin-inline:auto;
+
+    }
+
+    .footer-contact{
+
+    align-items:center;
+    }
+
+    .footer-item{
+
+    justify-content: center;
+
+    }
+
+    .footer-logo{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    }
+
+    
+
 
 }
 

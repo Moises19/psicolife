@@ -29,7 +29,13 @@
 
 .why-card{
 
-    background:var(--color-surface);
+    background:linear-gradient(
+           135deg,
+        #4A90E2,
+        #5BA6A6
+    );
+
+    /*background: red !important;*/
 
     border-radius:var(--radius-lg);
 
@@ -37,7 +43,19 @@
 
     box-shadow:var(--shadow-lg);
 
-    text-align: center;
+    text-align:center;
+
+    color:#FFFFFF;
+
+    transition:transform .3s ease, box-shadow .3s ease;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 16px 32px rgba(0,0,0,.18);
 
 }
 
@@ -52,6 +70,16 @@
 
 .why-card h3{
 
+    color:#FFFFFF;
+
     margin-bottom:1rem;
+
+}
+
+.why-card p{
+
+    color:rgba(255,255,255,.90);
+
+    line-height:1.7;
 
 }

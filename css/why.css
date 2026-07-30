@@ -29,13 +29,12 @@
 
 .why-card{
 
-    background:linear-gradient(
-           135deg,
-        #4A90E2,
-        #5BA6A6
+   background: linear-gradient(
+        135deg,
+        #D9C9AD,
+        #A8C89A
     );
 
-    /*background: red !important;*/
 
     border-radius:var(--radius-lg);
 

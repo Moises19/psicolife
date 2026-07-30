@@ -9,25 +9,29 @@
        COLORES
        ====================================================== */
 
-    --color-primary: #4A9FE6;
+    --color-primary: #D9C9AD;      /* Beige */
+
+    --color-primary-dark: #CBB896; /* Beige más oscuro */
 
     --color-primary-hover: #4A9BD4;
 
     --color-primary-light: #EAF6FF;
 
-    --color-secondary: #3D5A80;
+     --color-secondary: #006B13;    /* Verde */
 
-    --color-background: #F7FBFE;
+    --color-secondary-dark: #005410;
+
+    --color-background: #FAF8F4;
 
     --color-surface: #FFFFFF;
 
-    --color-text: #2D3748;
+    --color-text: #2F3747;
 
-    --color-text-light: #5F6C7B;
+    --color-text-light: #6B7280;
 
     --color-white: #FFFFFF;
 
-    --color-border: #D9EAF7;
+    --color-border: #E6E1D8;
 
     
 
@@ -72,7 +76,7 @@
 
     --space-xl: 6rem;
 
-    --space-2xl: 8rem;
+    --space-2xl: 2rem;
 
 
     /* ======================================================

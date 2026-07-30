@@ -99,26 +99,12 @@ ul{
 
 .btn-primary{
 
-    background-color: var(--color-primary);
+    background: var(--color-primary);
 
     color: var(--color-white);
 
     transition: var(--transition-normal);
-
-    /*display: inline-block;
-
-    padding: 1rem 2rem;
-
-    background-color: var(--color-primary);
-
-    color: var(--color-white);
-
-    border-radius: var(--radius-md);
-
-    font-weight: 600;
-
-    transition: var(--transition-normal);*/
-
+    
 }
 
 .btn-primary:hover{
@@ -176,3 +162,86 @@ ul{
 
 }
 
+/*========================================
+    Back To Top
+========================================*/
+
+.back-to-top{
+
+    position:fixed;
+
+    right:2rem;
+
+    bottom:2rem;
+
+    width:52px;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--color-primary);
+
+    color:#fff;
+
+    font-size:1.5rem;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    box-shadow:var(--shadow-lg);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:all .3s ease;
+
+    z-index:999;
+
+}
+
+.back-to-top.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+.back-to-top:hover{
+
+    transform:translateY(-4px);
+
+    background:var(--color-primary-dark);
+
+}
+
+.back-to-top-icon{
+
+    width:24px;
+
+    height:24px;
+
+}
+
+::selection{
+
+    background:var(--color-primary);
+
+    color:#fff;
+
+}

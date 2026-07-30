@@ -15,6 +15,15 @@
 
 }
 
+.faq-tag{
+    display: inline-flex;
+    margin: 0 auto 1.5rem;
+}
+
+.faq .container{
+    text-align: center;
+}
+
 .faq-container{
 
     max-width:800px;
